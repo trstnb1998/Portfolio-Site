@@ -20,6 +20,7 @@ function App() {
       <h1>MY NAME IS TRISTAN!</h1>
       <h2>Junior Software Engineer</h2>
       <h2>Take a look around my website if you would like to get to know a bit about me!</h2>
+      <h2>Test</h2>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}

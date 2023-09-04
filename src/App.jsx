@@ -7,6 +7,7 @@ function App() {
       <div>
         <NavBar />
       </div>
+      
       <h1>HEY THERE,</h1>
       <h1>MY NAME IS TRISTAN!</h1>
       <h2>Junior Software Engineer</h2>

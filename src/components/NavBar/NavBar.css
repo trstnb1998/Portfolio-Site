@@ -1,5 +1,17 @@
 .NavBar {
-    background-color: rgb(198, 198, 198);
+    background-color: rgb(198, 198, 198, 0.1);
     margin-top: 0px;
     top: 0%;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+.NavBar a {
+    padding-right: 3em;
+}
+
+.NavBar a:hover{
+    color: blueviolet;
+    transition: 0.3s;
 }

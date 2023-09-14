@@ -13,6 +13,7 @@
     display: flex;
     list-style: none;
     margin: 0 auto;
+    z-index: 10000000;
 }
 
 .NavLinks a {
@@ -34,6 +35,7 @@
     font-size: 42px;
     text-align: left;
     margin-left: 1em;
+    z-index: 10000000;
 }
 
 .NavLogo a {

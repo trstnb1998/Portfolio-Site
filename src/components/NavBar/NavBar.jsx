@@ -5,7 +5,7 @@ export default function NavBar() {
     return (
         <div className="NavBar">
             <div className="NavLogo">
-                <a href="#home">TB</a>
+                <a href="#home">Trstnb.</a>
             </div>
             <div className="NavLinks">
                 <a href="#home">HOME</a>

@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Fruktur:ital@1&display=swap');
 
 .NavBar {
-    background-color: rgba(198, 198, 198, 0.1);
+    background-color: rgba(198, 198, 198, 0.029);
     text-align: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
     top: 0;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
 }
 
 .NavLinks {
@@ -31,7 +33,7 @@
 }
 
 .NavLogo {
-    font-family: 'Fruktur', cursive;
+    /* font-family: 'Fruktur', cursive; */
     font-size: 42px;
     text-align: left;
     margin-left: 1em;
@@ -40,14 +42,15 @@
 
 .NavLogo a {
     text-decoration: none;
+    font-weight: 800;
     color: #ffffff;
     transition: 0.3s;
     text-shadow: -1.5px -1.5px 0 #40136a, 1.5px -1.5px 0 #40136a, -1px 1.5px 0 #40136a, 1.5px 1.5px 0 #40136a;
     color: #8a2be3;
 }
 
-.NavLogo a:hover {
+/* .NavLogo a:hover {
     color: #40136a;
     text-shadow: -1.5px -1.5px 0 #000000, 1.5px -1.5px 0 #000000, -1px 1.5px 0 #000000, 1.5px 1.5px 0 #000000;
     transition: 0.3s;
-}
+} */

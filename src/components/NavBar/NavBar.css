@@ -42,10 +42,12 @@
     text-decoration: none;
     color: #ffffff;
     transition: 0.3s;
-    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
-    color: rgb(255, 255, 255);
+    text-shadow: -1.5px -1.5px 0 #40136a, 1.5px -1.5px 0 #40136a, -1px 1.5px 0 #40136a, 1.5px 1.5px 0 #40136a;
+    color: #8a2be3;
 }
 
 .NavLogo a:hover {
-    color: blueviolet;
+    color: #40136a;
+    text-shadow: -1.5px -1.5px 0 #000000, 1.5px -1.5px 0 #000000, -1px 1.5px 0 #000000, 1.5px 1.5px 0 #000000;
+    transition: 0.3s;
 }

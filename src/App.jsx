@@ -10,8 +10,8 @@ function App() {
         <StarBackdrop />
         <NavBar />
       </div>
-      <h1>HEY THERE,</h1>
-      <h1>MY NAME IS TRISTAN!</h1>
+      <h1>Hey There!</h1>
+      <h1>My name is <a className='Purple'>Tristan</a>!</h1>
       <h2>Junior Software Engineer</h2>
       <h2>Take a look around my website if you would like to get to know a bit about me!</h2>
     </div>

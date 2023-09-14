@@ -19,7 +19,7 @@
 }
 
 .NavLinks a {
-    margin-right: 4em;
+    margin-right: 3em;
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
@@ -29,7 +29,7 @@
 }
 
 .NavLinks a:hover {
-    color: blueviolet;
+    color: #ffffff71;;
 }
 
 .NavLogo {
@@ -49,8 +49,29 @@
     color: #8a2be3;
 }
 
-/* .NavLogo a:hover {
-    color: #40136a;
-    text-shadow: -1.5px -1.5px 0 #000000, 1.5px -1.5px 0 #000000, -1px 1.5px 0 #000000, 1.5px 1.5px 0 #000000;
-    transition: 0.3s;
-} */
+.icon {
+    display: inline-block;
+    font-size: 23px;
+    padding-right: 0.7em;
+    color: #8a2be3;
+}
+
+.icon2 {
+    display: inline-block;
+    font-size: 24.5px;
+    padding-right: 0.5em;
+    color: #8a2be3;
+}
+
+.SocialLinks {
+    display: inline-block;
+    font-size: 40px;
+    padding-right: 0.2em;
+    color: #ffffff;
+}
+
+.SocialLinks :hover {
+    display: inline-block;
+    color: #ffffff71;
+    cursor: pointer;
+}

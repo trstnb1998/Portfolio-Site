@@ -6,31 +6,32 @@ import { AiOutlineHome, AiOutlineUser, AiOutlineCopy, AiOutlineFile, AiOutlineMa
 
 export default function NavBar() {
     return (
-        <div className="NavBar">
+        <div>
+        <nav className="NavBar">
             <div className="NavLogo">
-                <Link to={'/'}>Trstnb.</Link>
+                <Link to='/'>Trstnb.</Link>
             </div>
 
             <ul className="NavLinks">
                 <div className='icon'><AiOutlineHome /></div>
                 <li>
-                    <Link to={'/'}>HOME</Link>
+                    <Link to='/'>HOME</Link>
                 </li>
                 <div className="icon2"><AiOutlineUser /></div>
                 <li>
-                    <Link to={'about'}>ABOUT</Link>
+                    <Link to='/about'>ABOUT</Link>
                 </li>
-                <div className="icon"><AiOutlineCopy /></div>
+                <div className='icon'><AiOutlineCopy /></div>
                 <li>
-                    <Link to={'projects'}>PROJECTS</Link>
+                    <Link to='/projects'>PROJECTS</Link>
                 </li>
                 <div className="icon"><AiOutlineFile /></div>
                 <li>
-                    <Link to={'resume'}>RESUME</Link>
+                    <Link to='/resume'>RESUME</Link>
                 </li>
                 <div className="icon"><AiOutlineMail /></div>
                 <li>
-                    <Link to={'contact'}>CONTACT</Link>
+                    <Link to='/contact'>CONTACT</Link>
                 </li>
             </ul>
             <div className="SocialLinks">
@@ -39,6 +40,7 @@ export default function NavBar() {
             <div className="SocialLinks">
                 <a href="https://www.linkedin.com/in/tristan-bartolome/" target='_blank'><AiFillLinkedin /></a>
             </div>
+            </nav>
         </div>
     );
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import '../NavBar/NavBar.css';
+import { Link } from 'react-router-dom';
 import { AiOutlineHome, AiOutlineUser, AiOutlineCopy, AiOutlineFile, AiOutlineMail, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 
@@ -7,21 +8,31 @@ export default function NavBar() {
     return (
         <div className="NavBar">
             <div className="NavLogo">
-                <a href="#home">Trstnb.</a>
+                <Link to={'/'}>Trstnb.</Link>
             </div>
 
-            <div className="NavLinks">
+            <ul className="NavLinks">
                 <div className='icon'><AiOutlineHome /></div>
-                <a href="#home">HOME</a>
+                <li>
+                    <Link to={'/'}>HOME</Link>
+                </li>
                 <div className="icon2"><AiOutlineUser /></div>
-                <a href="#about">ABOUT</a>
+                <li>
+                    <Link to={'about'}>ABOUT</Link>
+                </li>
                 <div className="icon"><AiOutlineCopy /></div>
-                <a href="#projects">PROJECTS</a>
+                <li>
+                    <Link to={'projects'}>PROJECTS</Link>
+                </li>
                 <div className="icon"><AiOutlineFile /></div>
-                <a href="#resume">RESUME</a>
+                <li>
+                    <Link to={'resume'}>RESUME</Link>
+                </li>
                 <div className="icon"><AiOutlineMail /></div>
-                <a href="#contact">CONTACT</a>
-            </div>
+                <li>
+                    <Link to={'contact'}>CONTACT</Link>
+                </li>
+            </ul>
             <div className="SocialLinks">
                 <a href="https://github.com/trstnb1998" target='_blank'><AiFillGithub /></a>
             </div>

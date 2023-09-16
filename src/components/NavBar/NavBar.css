@@ -44,7 +44,7 @@
     text-decoration: none;
     font-weight: 800;
     color: #ffffff;
-    transition: 0.3s;
+    transition: 0.5s;
     text-shadow: -1.5px -1.5px 0 #40136a, 1.5px -1.5px 0 #40136a, -1px 1.5px 0 #40136a, 1.5px 1.5px 0 #40136a;
     color: #8a2be3;
 }
@@ -63,7 +63,7 @@
     color: #8a2be3;
 }
 
-.SocialLinks {
+.SocialLinks a {
     display: inline-block;
     font-size: 40px;
     padding-right: 0.2em;

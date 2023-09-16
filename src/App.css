@@ -19,22 +19,12 @@
     -webkit-text-size-adjust: 100%;
 }
 
-a {
+/* a {
     font-weight: 500;
     color: #ffffff;
     text-decoration: inherit;
-}
+} */
 
 a:hover {
     color: #ffffff;
-}
-
-h1 {
-    font-size: 3.2em;
-    line-height: 1.1;
-}
-
-
-.Purple {
-    color: blueviolet;
 }

@@ -1,0 +1,16 @@
+.project-img {
+    width: auto;
+    height: 11em;
+    border-radius: 10px;
+}
+
+.card {
+    display: inline-block;
+    border: 2px solid white;
+    background-color: #000000a0;
+    padding: 20px;
+    padding-bottom: 20em;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #ffffff1a;
+    margin-right: 2em;
+}

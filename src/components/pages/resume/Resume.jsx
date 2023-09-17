@@ -1,7 +1,7 @@
 import React from 'react'
 import './Resume.css'
-import ResumeImage from '/src/assets/ResumeImage.jpg'
-import ResumePDF from '/src/assets/ResumePDF.pdf'
+import ResumeImage from '/src/assets/resume/ResumeImage.jpg'
+import ResumePDF from '/src/assets/resume/ResumePDF.pdf'
 
 export default function Resume() {
     return (

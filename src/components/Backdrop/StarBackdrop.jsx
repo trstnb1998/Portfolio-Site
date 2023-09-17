@@ -1,9 +1,7 @@
-import '../Backdrop/StarBackdrop.css'
+import './StarBackdrop.css'
 
 export default function StarBackdrop() {
     return (
-
-
         // Comment out for star intensity
         <div className="bg-animation">
             <div id="stars"></div>

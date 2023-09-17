@@ -1,5 +1,5 @@
 import React from 'react';
-import '../NavBar/NavBar.css';
+import './NavBar.css';
 import { Link } from 'react-router-dom';
 import { AiOutlineHome, AiOutlineUser, AiOutlineCopy, AiOutlineFile, AiOutlineMail, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
@@ -9,7 +9,7 @@ export default function NavBar() {
         <div>
         <nav className="NavBar">
             <div className="NavLogo">
-                <Link to='/'>Trstnb.</Link>
+                <Link to='/' >Trstnb.</Link>
             </div>
 
             <ul className="NavLinks">

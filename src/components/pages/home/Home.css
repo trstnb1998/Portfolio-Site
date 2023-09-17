@@ -5,4 +5,10 @@ h1 {
 
 .Purple {
     color: blueviolet;
+    font-weight: 800;
+}
+
+.home-page {
+    margin-left: 3em;
+    margin-top: 10em;
 }

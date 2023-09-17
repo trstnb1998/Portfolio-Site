@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 .container {
-    margin-top: 10em;
+    margin-top: 8em;
     z-index: 1000000;
+    padding-bottom: 5em;
 }
 
 .contact-me {
@@ -51,12 +52,13 @@
     padding: 10px 20px;
     background-color: #373d44;
     color: #fff;
-    border: none;
+    border: solid 2px white;
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
     font-family: 'Oswald', sans-serif;
     margin-left: 194px;
+    background-color: #8a2be3;
 }
 
 .contact-box {

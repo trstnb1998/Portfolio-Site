@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
 h1 {
     font-size: 3.2em;
     line-height: 1.1;
+}
+
+.hey-there {
+    margin-bottom: -5em;
 }
 
 .Purple {
@@ -9,6 +15,49 @@ h1 {
 }
 
 .home-page {
-    margin-left: 3em;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 5%;
     margin-top: 10em;
+    float: left;
+    max-width: 30%;
+}
+
+.home-img {
+    float: right;
+    margin-top: 10em;
+    margin-right: 15%;
+}
+
+.kirby {
+    width: auto;
+    height: 7em;
+    vertical-align:baseline;
+    margin-left: 0.5em;
+    margin-bottom: -1em;
+}
+
+.greeting {
+    display: inline-block;
+}
+
+.intro-img {
+    margin-left: 5%;
+    margin-top: 3em;
+    width: auto;
+    height: 32em;
+    float: left;
+    padding-bottom: 5em;
+}
+
+.intro-page {
+    margin-right: 10%;
+    margin-bottom: 10emem;
+    float: right;
+    font-family: 'Oswald', sans-serif;
+    max-width: 45em;
+
+}
+
+.intro-page h1 {
+    font-weight: 800;
 }

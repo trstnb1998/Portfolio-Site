@@ -28,11 +28,12 @@
     margin-right: 4em;
     text-align: center;
     transition: 0.3s;
+    max-width: 30em;
 }
 
 .card:hover {
     box-shadow: 10px 10px 10px #ffffff91;
-    padding: 30px;
+    padding: 23px;
     transition: 0.3s;
 }
 

@@ -8,7 +8,7 @@ export default function Projects() {
     return (
         <div className='container'>
         <div className='content'>
-            <h2>Project <span>Work</span></h2>
+            <h2>Project <span className='purple'>Work</span></h2>
             <p>Here is some of my recent work!</p>
             <div className="card">
                 <img className='project-img' src={spp} alt="spp" />

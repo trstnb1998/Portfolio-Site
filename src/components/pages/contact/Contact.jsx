@@ -20,7 +20,7 @@ export default function Contact() {
       };
     return (
         <section>
-            <div className="container">
+            <div className="container2">
                 <div className="contact-box">
                     <h2 className='contact-me'>CONTACT ME</h2>
                     <FormControl>
@@ -28,7 +28,7 @@ export default function Contact() {
                             <input type="text" placeholder='Full Name' name='user_name' required />
                             <input type="email" placeholder='Example@gmail.com' name='user_email' required />
                             <input type="text" placeholder='Subject' name='subject' required />
-                            <textarea name="message" cols="30" rows="10" placeholder='Type your message here.' required></textarea>
+                            <textarea name="message" cols="30" rows="17" placeholder='Type your message here.' required></textarea>
                             <button type='submit' className='contact-btn'>
                                 SEND MESSAGE
                             </button>

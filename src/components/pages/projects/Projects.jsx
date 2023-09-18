@@ -6,7 +6,7 @@ import gamecade from '/src/assets/projects/gamecade.png'
 
 export default function Projects() {
     return (
-        <div className='container' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <div className='container'>
         <div className='content'>
             <h2>Project <span>Work</span></h2>
             <p>Here is some of my recent work!</p>

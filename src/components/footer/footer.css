@@ -1,0 +1,24 @@
+footer {
+    background-color: rgba(0, 0, 0, 0.616);
+    width: 100vw;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    text-align: center;
+
+}
+
+.copyright {
+    display: inline-block;
+    padding-right: 22em;
+}
+
+.design-by {
+    float: left;
+    margin-left: 2em;
+}

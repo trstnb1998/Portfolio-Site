@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 
-.NavBar {
-    background-color: rgba(198, 198, 198, 0.029);
+.nav-bar {
+    background-color: rgba(0, 0, 0, 0.21);
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -13,9 +13,10 @@
     backdrop-filter: blur(2px);
     position: fixed;
     left: 0;
+    z-index: 1;
 }
 
-.NavLinks {
+.nav-links {
     display: flex;
     list-style: none;
     margin: 0 auto;
@@ -24,7 +25,7 @@
 
 }
 
-.NavLinks a {
+.nav-links a {
     margin-right: 3em;
     text-decoration: none;
     color: #ffffff;
@@ -35,15 +36,15 @@
 
 }
 
-.NavLinks a:hover {
+.nav-links a:hover {
     color: #ffffff71;
 }
 
-.NavLinks a:active {
+.nav-links a:active {
     color: #ffffff2f;
 }
 
-.NavLogo {
+.nav-logo {
     /* font-family: 'Fruktur', cursive; */
     font-size: 42px;
     text-align: left;
@@ -51,16 +52,16 @@
     z-index: 10000000;
 }
 
-.NavLogo :hover {
+.nav-logo :hover {
     color: rgba(255, 255, 255, 0.933);
     transition: 0.2s;
 }
 
-.NavLogo :active {
+.nav-logo :active {
     color: #ffffff2f;
 }
 
-.NavLogo a {
+.nav-logo a {
     text-decoration: none;
     font-weight: 800;
     color: #ffffff;

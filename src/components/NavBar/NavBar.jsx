@@ -7,12 +7,12 @@ import { AiOutlineHome, AiOutlineUser, AiOutlineCopy, AiOutlineFile, AiOutlineMa
 export default function NavBar() {
     return (
         <div>
-        <nav className="NavBar">
-            <div className="NavLogo">
+        <nav className="nav-bar">
+            <div className="nav-logo">
                 <Link to='/' >Trstnb.</Link>
             </div>
 
-            <ul className="NavLinks">
+            <ul className="nav-links">
                 <div className='icon'><AiOutlineHome /></div>
                 <li>
                     <Link to='/'>HOME</Link>

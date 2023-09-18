@@ -25,18 +25,19 @@
     cursor: pointer;
 }
 
-.container1 :hover {
-    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5);
-    transition: 0.3s;
-    color: #949494;
-}
-
 .PDF-link {
     text-decoration: none;
 }
 
 .container1 {
     margin-top: 5em;
-    z-index: 1000000;
-    padding-bottom: 5em;
+    padding-bottom: 9em;
+    position: relative;
+    min-height: 100vh;
+}
+
+.container1 :hover {
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5);
+    transition: 0.3s;
+    color: #949494;
 }

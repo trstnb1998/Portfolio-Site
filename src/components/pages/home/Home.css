@@ -55,7 +55,7 @@ h1 {
     float: right;
     font-family: 'Oswald', sans-serif;
     max-width: 45em;
-
+    line-height: 2em;
 }
 
 .intro-page h1 {

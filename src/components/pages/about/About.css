@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+.about-page {
+    margin-top: 5em;
+    margin-left: 5%;
+    font-family: 'Oswald', sans-serif;
+    max-width: 40em;
+    float:left;
+}
+
+.chopper {
+    width: auto;
+    height: 7em;
+    vertical-align:baseline;
+    margin-left: 0.5em;
+    margin-bottom: -1em;
+}
+
+.so {
+    margin-bottom: -1em;
+}

@@ -24,7 +24,11 @@ export default function Home() {
                 <h1 className='Purple'>HOW ABOUT AN INTRODUCTION?</h1>
                 <h2>Hey! I'm <span className='Purple'>Tristan</span>, or <span className='Purple'>Tris</span> for short.
                     <br />
-                    I'm a software dev that has recently graduated from <span className='Purple'>General Assembly's Software Engineering Immersive</span> course. During My time at <span className='Purple'>GA</span>, my passion for coding has grown exponentially. Upon first learning how to code, it felt like stepping into a new world, one that has never been explored (by me at least), and with every new line of code or function that I write, it feels like discovering a new landmark!
+                    I'm a software dev that has recently graduated from <span className='Purple'>General Assembly's Software Engineering Immersive</span> course. 
+                    <br /> 
+                    During My time at <span className='Purple'>GA</span>, my passion for coding has grown exponentially. Upon first learning how to code, it felt like stepping into a new world, one that has never been explored (by me at least). 
+                    <br />
+                    With every new line of code or function that I write, it feels like discovering a new landmark!
                     <br />
                     I mainly code in:<span className='Purple'> HTML, CSS, JavaScript and React </span>
                 </h2>

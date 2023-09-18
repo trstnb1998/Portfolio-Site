@@ -9,7 +9,7 @@ export default function Contact() {
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('service_4oy8wua', 'template_jegv6wx', form.current, 'NdfWWnrP1-in3GhFP')
+        emailjs.sendForm('service_4oy8wua', 'template_jegv6wx', form.current, import.meta.env.VITE_EMAIL_JS_PUBLIC_KEY)
           .then((result) => {
               console.log(result.text);
           }, (error) => {

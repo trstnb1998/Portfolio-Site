@@ -12,7 +12,7 @@ import { DiBootstrap, DiCss3, DiFirebase, DiGitBranch, DiGithubBadge, DiGit, DiH
 import { SiMacos, SiTailwindcss } from "react-icons/si";
 
 const explicitTheme = {
-    light: ['#f0f0f0', 'rgba(190, 172, 255, 1)', 'rgba(134, 110, 221, 1)', 'rgba(109, 83, 204, 1)', 'rgba(57, 30, 157, 1)'],
+    light: ['#c1c1c189', 'rgba(190, 172, 255, 1)', 'rgba(103, 84, 172, 1)', 'rgba(80, 46, 190, 1)', 'rgba(50, 7, 189, 1)'],
     dark: ['rgba(60, 60, 60, 0.92)', '#4D455D', '#7DB9B6', '#F5E9CF', 'rebeccapurple'],
   };
 

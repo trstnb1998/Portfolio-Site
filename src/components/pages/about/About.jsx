@@ -4,7 +4,10 @@ import { TypeAnimation } from 'react-type-animation';
 import chopper from '/src/assets/chopper.gif'
 import deskstudy from '/src/assets/deskstudy.svg'
 import fashionguy from '/src/assets/fashionguy.svg'
-import { DiBootstrap, } from "react-icons/di";
+import { DiBootstrap, DiCss3, DiDatabase, DiFirebase, DiGitBranch, DiGithubBadge, DiGit, DiHtml5, DiJsBadge, DiJqueryLogo, DiNodejs, DiNpm, DiMongodb, DiPostgresql, DiRuby, DiReact, DiVisualstudio, DiWindows }
+    from "react-icons/di";
+import { SiMacos, SiTailwindcss } from "react-icons/si";
+
 import { purple } from '@mui/material/colors';
 
 export default function About() {
@@ -55,30 +58,51 @@ export default function About() {
             </div>
             <div className='break'></div>
 
-            <div className="techstack">
-                <h1>
-                        <TypeAnimation
-                            sequence={[
-                                // Same substring at the start will only be typed out once, initially
-                                'MY TECHSTACK',
-                                2000,
-                                'MY FRAMEWORKS',
-                                2000,
-                                'MY TOOLS',
-                                2000,
-                                'MY SKILLS',
-                                2000,
-                                'MY TECHNOLOGIES',
-                                2000
+            <h1 className="techstack-heading">
+                <TypeAnimation
+                    sequence={[
+                        // Same substring at the start will only be typed out once, initially
+                        'MY TECHSTACK',
+                        2000,
+                        'MY FRAMEWORKS',
+                        2000,
+                        'MY TOOLS',
+                        2000,
+                        'MY SKILLS',
+                        2000,
+                        'MY TECHNOLOGIES',
+                        2000
+                    ]}
+                    wrapper="span"
+                    speed={10}
+                    style={{ display: 'inline-block' }}
+                    repeat={Infinity}
+                    color={purple}
+                />
+            </h1>
 
-                            ]}
-                            wrapper="span"
-                            speed={10}
-                            style={{ display: 'inline-block' }}
-                            repeat={Infinity}
-                            color={purple}
-                        />
-                </h1>
+            <div className="techstack">
+                <span><DiHtml5 /></span>
+                <span><DiCss3 /></span>
+                <span><DiJsBadge /></span>
+                <span><DiReact /></span>
+                <span><DiRuby /></span>
+                <span><DiJqueryLogo /></span>
+                <span><DiNodejs /></span>
+                <span><DiBootstrap /></span>
+                <span><SiTailwindcss /></span>
+                <span><DiFirebase /></span>
+            </div>
+            <div className='techstack2'>
+                <span><DiMongodb /></span>
+                <span><DiPostgresql /></span>
+                <span><DiNpm /></span>
+                <span><DiGithubBadge /></span>
+                <span><DiGit /></span>
+                <span><DiGitBranch /></span>
+                <span><DiVisualstudio /></span>
+                <span><DiWindows /></span>
+                <span><SiMacos /></span>
             </div>
         </div>
     )

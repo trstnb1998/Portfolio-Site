@@ -6,8 +6,8 @@
     color-scheme: dark;
     color: rgba(255, 255, 255, 0.87);
 
-    background: rgb(58, 13, 131);
-    background: linear-gradient(360deg, rgb(90, 20, 202) 0%, rgba(21, 0, 54, 1) 96%);
+    background: rgb(75, 57, 104);
+    background: linear-gradient(360deg, rgb(105, 60, 179) 0%, rgb(0, 0, 0) 96%);
 
     height: 100%;
     margin: 0;
@@ -35,7 +35,7 @@ a:hover {
 /* Scrollbar styling */
 ::-webkit-scrollbar {
     width: 0.5em;
-    background-color: rgba(71, 16, 99, 0.461);
+    background-color: rgba(90, 47, 111, 0.461);
   }
    
   ::-webkit-scrollbar-thumb {

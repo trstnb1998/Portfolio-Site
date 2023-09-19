@@ -42,7 +42,7 @@ export default function Projects() {
                     <img className='project-img' src={spotify} alt="spp" />
                     <h2>BeatBox Music Player</h2>
                     <div className="card-p">
-                        <p>BeatBox is a music player app created with React, utilizing Spotify's API and OAuth for a seamless listening experience. Login with your spotify account and authenticate to enjoy your favorite tracks, playlists, and artists or discover trending songs and playlsits with ease . With BeatBox, you can view your playlists, explore curated collections, and even search for specific songs and artists.</p>
+                        <p>BeatBox is a music player app created with React, utilizing Spotify's API and OAuth for a seamless listening experience. Login with your spotify account and authenticate to enjoy your favorite tracks, playlists, and artists or discover trending songs and playlsits with ease . With BeatBox, you can view your playlists, explore curated collections, and even search for specific songs and artists. Elevate your music experience today!</p>
                     </div>
 
                     <button onClick={() => window.open("https://github.com/vworo/Beat-Box", "_blank")}>

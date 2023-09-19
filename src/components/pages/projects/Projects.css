@@ -31,7 +31,8 @@
     transition: 0.3s;
     width: 20%;
     padding-bottom: 3em;
-    position:relative;
+    position: relative;
+    overflow: hidden;
 }
 
 .card:hover {

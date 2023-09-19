@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
 
 .about-page {
-    margin-top: 5em;
+    margin-top: 10em;
     margin-left: 5%;
     font-family: 'Oswald', sans-serif;
     max-width: 40em;
-    float:left;
+    float: left;
+}
+
+.who-am-i {
+    color: blueviolet;
 }
 
 .chopper {
@@ -18,4 +22,48 @@
 
 .so {
     margin-bottom: -1em;
+}
+
+.about-img {
+    float: right;
+    margin-top: 10em;
+    margin-right: 15%;
+    width: auto;
+    height: 30em;
+}
+
+
+.fashion-guy {
+    float: left;
+    margin-left: 9%;
+    margin-top: 5em;
+    padding-bottom: 2em;
+}
+
+.why-coding {
+    left: 5%;
+    margin-right: 10%;
+    margin-bottom: 10em;
+    float: right;
+    font-family: 'Oswald', sans-serif;
+    max-width: 45em;
+    line-height: 2em;
+    padding-bottom: 5em;
+    margin-top: 4em;
+}
+
+.why-coding h1 {
+    text-align: center;
+}
+
+.techstack {
+    padding-bottom: 5em;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+
+.break {
+    clear: both;
 }

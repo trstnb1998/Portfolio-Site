@@ -51,13 +51,9 @@ h1 {
 
 .intro-page {
     margin-right: 10%;
-    margin-bottom: 10emem;
+    margin-bottom: 10em;
     float: right;
     font-family: 'Oswald', sans-serif;
     max-width: 45em;
     line-height: 2em;
-}
-
-.intro-page h1 {
-    font-weight: 800;
 }

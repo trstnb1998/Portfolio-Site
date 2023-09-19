@@ -2,12 +2,12 @@ import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import NavBar from './components/NavBar/NavBar'
 import StarBackdrop from './components/Backdrop/StarBackdrop'
-import Home from './components/pages/Home/Home'
+import Home from './components/pages/home/Home'
 import About from './components/pages/about/About'
 import Projects from './components/pages/projects/Projects'
-import Resume from './components/pages/Resume/Resume'
+import Resume from './components/pages/resume/Resume'
 import Contact from './components/pages/contact/Contact'
-import Footer from './components/footer/footer'
+import Footer from './components/footer/Footer'
 
 
 function App() {

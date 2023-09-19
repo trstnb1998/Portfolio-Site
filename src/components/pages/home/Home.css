@@ -43,8 +43,8 @@ h1 {
 .intro-img {
     margin-left: 5%;
     margin-top: 3em;
-    width: auto;
-    height: 32em;
+    width: 40%;
+    height: auto;
     float: left;
     padding-bottom: 5em;
 }
@@ -54,6 +54,6 @@ h1 {
     margin-bottom: 10em;
     float: right;
     font-family: 'Oswald', sans-serif;
-    max-width: 45em;
+    max-width: 40%;
     line-height: 2em;
 }

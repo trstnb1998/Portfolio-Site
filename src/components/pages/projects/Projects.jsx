@@ -8,7 +8,7 @@ import { AiFillGithub, AiOutlinePicLeft } from "react-icons/ai";
 
 export default function Projects() {
     return (
-        <div className='container'>
+        <div className='card-container'>
             <div className='content'>
                 <h1>PROJECT <span className='purple'>WORK</span></h1>
                 <p className='recent-work-p'>Here is some of my recent work!</p>
@@ -42,7 +42,7 @@ export default function Projects() {
                     <img className='project-img' src={spotify} alt="spp" />
                     <h2>BeatBox Music Player</h2>
                     <div className="card-p">
-                        <p>BeatBox is a music player app created with React, utilizing Spotify's API and OAuth for a seamless listening experience. Login with your spotify account and authenticate to enjoy your favorite tracks, playlists, and artists or discover trending songs and playlsits with ease . With BeatBox, you can view your playlists, explore curated collections, and even search for specific songs and artists. Elevate your music experience today!</p>
+                        <p>BeatBox is a music player app created with React, utilizing Spotify's API and OAuth for a seamless listening experience. Login with your spotify account and authenticate to enjoy your favorite tracks, playlists, and artists or discover trending songs and playlsits with ease . With BeatBox, you can view your playlists, explore curated collections, and even search for specific songs and artists.</p>
                     </div>
 
                     <button onClick={() => window.open("https://github.com/vworo/Beat-Box", "_blank")}>

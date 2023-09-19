@@ -4,11 +4,17 @@ import { TypeAnimation } from 'react-type-animation';
 import chopper from '/src/assets/chopper.gif'
 import deskstudy from '/src/assets/deskstudy.svg'
 import fashionguy from '/src/assets/fashionguy.svg'
-import { DiBootstrap, DiCss3, DiDatabase, DiFirebase, DiGitBranch, DiGithubBadge, DiGit, DiHtml5, DiJsBadge, DiJqueryLogo, DiNodejs, DiNpm, DiMongodb, DiPostgresql, DiRuby, DiReact, DiVisualstudio, DiWindows }
+import { purple } from '@mui/material/colors';
+import GitHubCalendar from 'react-github-calendar';
+
+import { DiBootstrap, DiCss3, DiFirebase, DiGitBranch, DiGithubBadge, DiGit, DiHtml5, DiJsBadge, DiJqueryLogo, DiNodejs, DiNpm, DiMongodb, DiPostgresql, DiRuby, DiReact, DiVisualstudio, DiWindows }
     from "react-icons/di";
 import { SiMacos, SiTailwindcss } from "react-icons/si";
 
-import { purple } from '@mui/material/colors';
+const explicitTheme = {
+    light: ['#f0f0f0', 'rgba(190, 172, 255, 1)', 'rgba(134, 110, 221, 1)', 'rgba(109, 83, 204, 1)', 'rgba(57, 30, 157, 1)'],
+    dark: ['rgba(60, 60, 60, 0.92)', '#4D455D', '#7DB9B6', '#F5E9CF', 'rebeccapurple'],
+  };
 
 export default function About() {
     return (
@@ -103,6 +109,9 @@ export default function About() {
                 <span><DiVisualstudio /></span>
                 <span><DiWindows /></span>
                 <span><SiMacos /></span>
+            </div>
+            <div className="github-calender">
+                <GitHubCalendar username="trstnb1998" colorScheme='light' blockSize={25} hideTotalCount={false} hideColorLegend={false} blockRadius={5} theme={explicitTheme} />
             </div>
         </div>
     )

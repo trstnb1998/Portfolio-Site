@@ -3,10 +3,10 @@ import './App.css'
 import NavBar from './components/NavBar/NavBar'
 import StarBackdrop from './components/Backdrop/StarBackdrop'
 import Home from './components/pages/Home/Home'
-import About from './components/pages/about/about'
-import Projects from './components/pages/projects/projects'
+import About from './components/pages/about/About'
+import Projects from './components/pages/projects/Projects'
 import Resume from './components/pages/Resume/Resume'
-import Contact from './components/pages/contact/contact'
+import Contact from './components/pages/contact/Contact'
 import Footer from './components/footer/footer'
 
 

@@ -9,10 +9,10 @@ import Resume from './components/pages/resume/Resume'
 import Contact from './components/pages/contact/Contact'
 import Footer from './components/footer/Footer'
 
-
 function App() {
   return (
     <div className='App'>
+      
         <StarBackdrop />
         <NavBar />
 

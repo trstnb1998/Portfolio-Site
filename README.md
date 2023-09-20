@@ -3,7 +3,7 @@
 ## Built with ❤️ using React, Vite, and Vanilla CSS
 
 ### Key Features:
-- ✨ Smooth animations powered by `react-type-animation`
+- ✨ Typing animations powered by `react-type-animation`
 - 🌐 Seamless navigation with `react-router-dom`
 - 🚀 Stylish icons courtesy of `react-icons`
 - 📅 Stay updated with my GitHub activity using `react-github-calendar`

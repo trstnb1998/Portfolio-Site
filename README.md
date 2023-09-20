@@ -12,7 +12,7 @@
 
 ### Check it out here: [Portfolio Website](https://trstnb1998.netlify.app/)
 
-## Additional Packages
+## Packages
 
 - `react-type-animation@3.1.0`
 - `react-router-dom@6.16.0`

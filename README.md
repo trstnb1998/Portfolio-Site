@@ -10,7 +10,7 @@
 - 🖌️ Beautiful UI components from `mui/material`
 - 📧 Contact me easily through the `emailjs/browser`
 
-### Check it out here: [Portfolio Website](https://trstnb1998.netlify.app/){:target="_blank"}
+### Check it out here: [Portfolio Website](https://trstnb1998.netlify.app/)
 
 ## Additional Packages
 

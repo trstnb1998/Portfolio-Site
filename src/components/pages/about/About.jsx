@@ -110,6 +110,11 @@ export default function About() {
                 <span><DiWindows /></span>
                 <span><SiMacos /></span>
             </div>
+
+                    <h1 className="calender-header">
+                        Days I <span className='Purple'>Code</span>
+                    </h1>
+
             <div className="github-calender">
                 <GitHubCalendar username="trstnb1998" colorScheme='light' blockSize={25} hideTotalCount={false} hideColorLegend={false} blockRadius={5} theme={explicitTheme} />
             </div>

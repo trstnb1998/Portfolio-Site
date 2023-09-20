@@ -24,7 +24,7 @@
     background-color: #000000a0;
     padding: 20px;
     box-shadow: 10px 10px 10px #ffffff26;
-    max-height: 40em;
+    /* max-height: 40em; */
     border-radius: 10px;
     margin-right: 2%;
     text-align: center;
@@ -32,7 +32,7 @@
     width: 20%;
     padding-bottom: 3em;
     position: relative;
-    overflow: hidden; /*this supposedly fixes auto expand*/
+    
 }
 
 .card:hover {

@@ -43,3 +43,8 @@ a:hover {
     background-color: blueviolet;
     -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
   }
+
+  .Purple {
+    color: blueviolet;
+    font-weight: 800;
+}

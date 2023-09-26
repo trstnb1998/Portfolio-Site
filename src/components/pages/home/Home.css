@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
 
+/* Styling for greeting content */
 h1 {
     font-size: 3.2em;
     line-height: 1.1;
@@ -9,23 +10,33 @@ h1 {
     margin-bottom: -5em;
 }
 
-.Purple {
-    color: blueviolet;
-    font-weight: 800;
-}
-
 .home-page {
     font-family: 'Oswald', sans-serif;
     margin-left: 5%;
     margin-top: 10em;
     float: left;
-    max-width: 30%;
+    width: 90%;
+}
+
+.home-page-container {
+    float: left;
+    width: 50%;
+    display: flex;
 }
 
 .home-img {
     float: right;
     margin-top: 10em;
     margin-right: 15%;
+    width: 70%;
+}
+
+.home-img-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
 }
 
 .kirby {
@@ -40,13 +51,24 @@ h1 {
     display: inline-block;
 }
 
-.intro-img {
-    margin-left: 5%;
-    margin-top: 3em;
-    width: 40%;
-    height: auto;
+/* ------------------------------------------------------------------------------ */
+
+/* Styling for "How about an intro?" */
+.intro-img-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     float: left;
+    position: relative;
+}
+
+.intro-img {
+    margin-top: 3em;
+    width: 70%;
+    height: auto;
     padding-bottom: 5em;
+    float: left;
 }
 
 .intro-page {
@@ -54,6 +76,12 @@ h1 {
     margin-bottom: 10em;
     float: right;
     font-family: 'Oswald', sans-serif;
-    max-width: 40%;
+    width: 90%;
     line-height: 2em;
+}
+
+.intro-page-container {
+    float: right;
+    width: 50%;
+    display: flex;
 }

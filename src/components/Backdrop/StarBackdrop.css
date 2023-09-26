@@ -52,6 +52,7 @@
 }
 
 #stars2:after {
+    margin-left: 10em;
     content: " ";
     position: absolute;
     top: 2000px;

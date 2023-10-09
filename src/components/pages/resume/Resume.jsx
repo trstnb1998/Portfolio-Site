@@ -9,7 +9,7 @@ export default function Resume() {
             <a href={ResumePDF} download='ResumePDF' target='_blank' className='PDF-link'>
                 <button className='PDF-button'>DOWNLOAD PDF</button>
             </a>
-            <img className='resume-img' src={ResumeImage} alt="Resume" />
+            <img className='resume-img' src={ResumePDF} alt="Resume" />
         </div>
     )
 }

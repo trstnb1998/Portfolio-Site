@@ -3,9 +3,9 @@
 .resume-img {
     display: block;
     margin: 0 auto;
-    max-width: 100%;
+    /* max-width: 100%; */
     width: auto;
-    height: 75em;
+    height: 30%;
     border-radius: 1em;
     border: solid 3px #949494;
     margin-top: 1em;
